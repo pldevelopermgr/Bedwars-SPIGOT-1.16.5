@@ -1,0 +1,11 @@
+cup-name: "Example Cup"
+cup-version: 1.0
+cup-lobby: $minecraft-position
+cup-owner: "THEEPICPANKEIKU"
+competition-date: 20/04/2021
+cup-dialogues: "~df/Dialogues/Example Cup/dialogues.bwcupdialogues"
+participants-min: 2
+participant-max: 10
+cup-banlist: enabled, {"Miner7726_mc","Monkey35", etc}
+cup-whitelist: enabled, {"THEEPICPANKEIKU", "THEEPICPANKEIKU2"}
+/* cup-whitelist: disabled *\
