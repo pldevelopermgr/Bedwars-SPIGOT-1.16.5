@@ -8,4 +8,4 @@ participants-min: 2
 participant-max: 10
 cup-banlist: enabled, {"Miner7726_mc","Monkey35", etc}
 cup-whitelist: enabled, {"THEEPICPANKEIKU", "THEEPICPANKEIKU2"}
-/* cup-whitelist: disabled *\
+/* cup-whitelist: disabled */
