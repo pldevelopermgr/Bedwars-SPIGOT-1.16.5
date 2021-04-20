@@ -3,7 +3,8 @@ package bw.cup;
 import java.io.File;
 import java.util.ArrayList;
 
-public class PluginCupHandler {
+public class PluginCupHandler 
+{
 	
 	/*
 	 * Loads a BW Cup from a file which should be on the server.
