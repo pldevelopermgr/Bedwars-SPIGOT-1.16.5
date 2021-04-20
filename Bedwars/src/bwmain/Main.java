@@ -1,10 +1,47 @@
 package bwmain;
 
-public class Main {
+import org.bukkit.plugin.java.JavaPlugin;
+
+import bw.cup.PluginCupHandler;
+
+public class Main extends JavaPlugin 
+{
 	
-	public static void main(String[] args)
+	private static PluginCupHandler default_cuphandler = new PluginCupHandler();
+	
+	@Override
+	public void onEnable()
 	{
-		System.out.println("Default");
+		bwinit();
+	}
+	
+	@Override
+	public void onDisable()
+	{
+		bwsave();
+	}
+	
+	/*
+	 * Creates and loads all needed files to start the plugin.
+	 */
+	
+	private void bwinit()
+	{
+		
+	}
+	
+	/*
+	 * saves all next time needed files to files.
+	 */
+	
+	private void bwsave()
+	{
+		
+	}
+	
+	private PluginCupHandler getDefaultCupHandler()
+	{
+		return this.default_cuphandler;
 	}
 
 }
