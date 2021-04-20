@@ -19,6 +19,5 @@ public class Cup
 	private int max_participants;
 	private CupBanlist banlist;
 	private CupWhitelist whitelist;
-	
 
 }
